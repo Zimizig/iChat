@@ -21,7 +21,35 @@ class AuthViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = .white
+        setupConstraints()
+    }
+    private func setupConstraints() {
+        
+        view.addSubview(logoImageView)
+        logoImageView.translatesAutoresizingMaskIntoConstraints = false
+        
+        let googleView = ButtonFromView(label: googleLabel, button: googleButton)
+        let emailView = ButtonFromView(label: emailLabel, button: emailButton)
+        let loginView  = ButtonFromView(label: alreadyOnboardLabel, button: loginButton)
+        
+        let stackView = UIStackView(arrangedSubviews: [googleView,emailView,loginView],axis: .vertical,spacing: 40)
+        view.addSubview(stackView)
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate ([
+            logoImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 160),
+            logoImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        ])
+        
+        
+        NSLayoutConstraint.activate ([
+            stackView.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: 160),
+            stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
+            stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40)
+        ])
+        
+        
     }
 }
 

@@ -15,6 +15,8 @@
 		2C1DFD6E2C491699009EE305 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2C1DFD6D2C491699009EE305 /* Base */; };
 		2C4EE7092C4E96B800EAADCB /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EE7082C4E96B800EAADCB /* UILabel + Extension.swift */; };
 		2C4EE70B2C4E986400EAADCB /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EE70A2C4E986400EAADCB /* UIImage + Extension.swift */; };
+		2C4EE70F2C4EAD6200EAADCB /* ButtonFromView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EE70E2C4EAD6200EAADCB /* ButtonFromView.swift */; };
+		2C4EE7112C4EBA5200EAADCB /* UIstackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EE7102C4EBA5200EAADCB /* UIstackView + Extension.swift */; };
 		2CCC15892C4AE70C00554369 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC15882C4AE70C00554369 /* UIButton + Extension.swift */; };
 		2CCC158B2C4AEC5500554369 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC158A2C4AEC5500554369 /* UIFont + Extension.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 		2C1DFD6F2C491699009EE305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C4EE7082C4E96B800EAADCB /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
 		2C4EE70A2C4E986400EAADCB /* UIImage + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		2C4EE70E2C4EAD6200EAADCB /* ButtonFromView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFromView.swift; sourceTree = "<group>"; };
+		2C4EE7102C4EBA5200EAADCB /* UIstackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIstackView + Extension.swift"; sourceTree = "<group>"; };
 		2CCC15882C4AE70C00554369 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
 		2CCC158A2C4AEC5500554369 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,16 +71,34 @@
 				2C1DFD612C491698009EE305 /* AppDelegate.swift */,
 				2C1DFD632C491698009EE305 /* SceneDelegate.swift */,
 				2C1DFD652C491698009EE305 /* AuthViewController.swift */,
-				2C4EE70A2C4E986400EAADCB /* UIImage + Extension.swift */,
-				2C4EE7082C4E96B800EAADCB /* UILabel + Extension.swift */,
-				2CCC158A2C4AEC5500554369 /* UIFont + Extension.swift */,
-				2CCC15882C4AE70C00554369 /* UIButton + Extension.swift */,
-				2C11CA1C2C4E8EEB00D3FB2C /* UIColor + Extension.swift */,
+				2C4EE70D2C4EAAFE00EAADCB /* Extensions */,
 				2C1DFD6A2C491699009EE305 /* Assets.xcassets */,
 				2C1DFD6C2C491699009EE305 /* LaunchScreen.storyboard */,
 				2C1DFD6F2C491699009EE305 /* Info.plist */,
 			);
 			path = iChat;
+			sourceTree = "<group>";
+		};
+		2C4EE70C2C4EAAD800EAADCB /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2C4EE70A2C4E986400EAADCB /* UIImage + Extension.swift */,
+				2C4EE7082C4E96B800EAADCB /* UILabel + Extension.swift */,
+				2CCC158A2C4AEC5500554369 /* UIFont + Extension.swift */,
+				2CCC15882C4AE70C00554369 /* UIButton + Extension.swift */,
+				2C11CA1C2C4E8EEB00D3FB2C /* UIColor + Extension.swift */,
+				2C4EE7102C4EBA5200EAADCB /* UIstackView + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		2C4EE70D2C4EAAFE00EAADCB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2C4EE70E2C4EAD6200EAADCB /* ButtonFromView.swift */,
+				2C4EE70C2C4EAAD800EAADCB /* UIKit */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +175,8 @@
 				2C1DFD662C491698009EE305 /* AuthViewController.swift in Sources */,
 				2C1DFD622C491698009EE305 /* AppDelegate.swift in Sources */,
 				2C4EE7092C4E96B800EAADCB /* UILabel + Extension.swift in Sources */,
+				2C4EE70F2C4EAD6200EAADCB /* ButtonFromView.swift in Sources */,
+				2C4EE7112C4EBA5200EAADCB /* UIstackView + Extension.swift in Sources */,
 				2C11CA1D2C4E8EEB00D3FB2C /* UIColor + Extension.swift in Sources */,
 				2C4EE70B2C4E986400EAADCB /* UIImage + Extension.swift in Sources */,
 				2C1DFD642C491698009EE305 /* SceneDelegate.swift in Sources */,
