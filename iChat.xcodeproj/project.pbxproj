@@ -21,6 +21,7 @@
 		2C7C04302C4FB63500D6C4BB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C042F2C4FB63500D6C4BB /* SignUpViewController.swift */; };
 		2CCC15892C4AE70C00554369 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC15882C4AE70C00554369 /* UIButton + Extension.swift */; };
 		2CCC158B2C4AEC5500554369 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC158A2C4AEC5500554369 /* UIFont + Extension.swift */; };
+		2CD1D15E2C5010C40095E982 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1D15D2C5010C40095E982 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		2C7C042F2C4FB63500D6C4BB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		2CCC15882C4AE70C00554369 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
 		2CCC158A2C4AEC5500554369 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		2CD1D15D2C5010C40095E982 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				2C1DFD612C491698009EE305 /* AppDelegate.swift */,
 				2C1DFD632C491698009EE305 /* SceneDelegate.swift */,
 				2C1DFD652C491698009EE305 /* AuthViewController.swift */,
+				2CD1D15D2C5010C40095E982 /* LoginViewController.swift */,
 				2C7C042F2C4FB63500D6C4BB /* SignUpViewController.swift */,
 				2C4EE70D2C4EAAFE00EAADCB /* Extensions */,
 				2C1DFD6A2C491699009EE305 /* Assets.xcassets */,
@@ -188,6 +191,7 @@
 				2C11CA1D2C4E8EEB00D3FB2C /* UIColor + Extension.swift in Sources */,
 				2C4EE70B2C4E986400EAADCB /* UIImage + Extension.swift in Sources */,
 				2C1DFD642C491698009EE305 /* SceneDelegate.swift in Sources */,
+				2CD1D15E2C5010C40095E982 /* LoginViewController.swift in Sources */,
 				2CCC15892C4AE70C00554369 /* UIButton + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
