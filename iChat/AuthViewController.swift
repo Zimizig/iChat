@@ -15,13 +15,16 @@ class AuthViewController: UIViewController {
     let emailLabel = UILabel(text: "Or sign up with")
     let alreadyOnboardLabel = UILabel(text: "Already on board?")
     
-    let googleButton = UIButton(title: "Google", titleColor: .black, backgroundColor: .white, isShadow: true)
+    let googleButton = UIButton(title: "Google", titleColor: .black, backgroundColor: .buttonWhite(), isShadow: true)
     let emailButton = UIButton(title: "Email", titleColor: .white, backgroundColor: .buttonDark())
-    let loginButton = UIButton(title: "Login", titleColor: .buttonRed(), backgroundColor: .white, isShadow: true)
+    let loginButton = UIButton(title: "Login", titleColor: .buttonRed(), backgroundColor: .buttonWhite(), isShadow: true)
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        googleButton.customizeGoogleButton()
+        
+        view.backgroundColor = .systemBrown
         setupConstraints()
     }
 }

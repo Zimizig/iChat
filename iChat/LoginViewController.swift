@@ -18,7 +18,7 @@ class LoginViewController: UIViewController {
     let passwordUILabel = UILabel(text: "Password")
     let needAnAccountUILabel = UILabel(text: "Need an account?")
     
-    let googleUIButton = UIButton(title: "Google", titleColor: .black, backgroundColor: .white, isShadow: true)
+    let googleUIButton = UIButton(title: "Google", titleColor: .black, backgroundColor: .buttonWhite(), isShadow: true)
     let loginUIButton = UIButton(title: "Login", titleColor: .white, backgroundColor: .buttonDark())
     let signInUIButton: UIButton = {
         let button = UIButton(type: .system)
@@ -33,6 +33,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        googleUIButton.customizeGoogleButton()
         view.backgroundColor = .systemBrown
         setupConstraints()
     }
