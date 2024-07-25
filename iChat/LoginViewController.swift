@@ -10,7 +10,7 @@ import SwiftUI
 
 class LoginViewController: UIViewController {
     
-    var welcomeUILabel = UILabel(text: "Welcome back!", font: .avenir26())
+    let welcomeUILabel = UILabel(text: "Welcome back!", font: .avenir26())
     
     let loginWithUILabel = UILabel(text: "Login with")
     let orUILabel = UILabel(text: "or")

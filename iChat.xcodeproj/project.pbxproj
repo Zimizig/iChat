@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C02C9012C4FE587000BC6B0 /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C02C9002C4FE587000BC6B0 /* OneLineTextField.swift */; };
 		2C11CA1D2C4E8EEB00D3FB2C /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11CA1C2C4E8EEB00D3FB2C /* UIColor + Extension.swift */; };
+		2C1D2AA22C52B82C000D6B93 /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1D2AA12C52B82C000D6B93 /* SegmentedControl + Extension.swift */; };
 		2C1DFD622C491698009EE305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DFD612C491698009EE305 /* AppDelegate.swift */; };
 		2C1DFD642C491698009EE305 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DFD632C491698009EE305 /* SceneDelegate.swift */; };
 		2C1DFD662C491698009EE305 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DFD652C491698009EE305 /* AuthViewController.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		2C02C9002C4FE587000BC6B0 /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 		2C11CA1C2C4E8EEB00D3FB2C /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		2C1D2AA12C52B82C000D6B93 /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
 		2C1DFD5E2C491698009EE305 /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1DFD612C491698009EE305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C1DFD632C491698009EE305 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				2CCC15882C4AE70C00554369 /* UIButton + Extension.swift */,
 				2C11CA1C2C4E8EEB00D3FB2C /* UIColor + Extension.swift */,
 				2C4EE7102C4EBA5200EAADCB /* UIstackView + Extension.swift */,
+				2C1D2AA12C52B82C000D6B93 /* SegmentedControl + Extension.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				2CE436A32C514FA0003186F4 /* AddPhotoView.swift in Sources */,
 				2C4EE70F2C4EAD6200EAADCB /* ButtonFromView.swift in Sources */,
 				2C4EE7112C4EBA5200EAADCB /* UIstackView + Extension.swift in Sources */,
+				2C1D2AA22C52B82C000D6B93 /* SegmentedControl + Extension.swift in Sources */,
 				2C11CA1D2C4E8EEB00D3FB2C /* UIColor + Extension.swift in Sources */,
 				2C4EE70B2C4E986400EAADCB /* UIImage + Extension.swift in Sources */,
 				2C1DFD642C491698009EE305 /* SceneDelegate.swift in Sources */,
